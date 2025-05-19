@@ -1,0 +1,27 @@
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-in-out forwards;
+}
+
+/* Personalizações de navegação */
+header nav a {
+  transition: color 0.2s ease;
+}
+header nav a:hover {
+  color: #c7f5cb;
+}
+
+/* Estilo de bloco de citação */
+blockquote {
+  background-image: linear-gradient(135deg, #d1fae5 0%, #effaf3 100%);
+}
